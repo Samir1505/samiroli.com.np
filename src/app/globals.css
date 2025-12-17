@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --spacing-6xl: 75rem;
+  --container-screen-2xl: 83.75rem;
+
+  --shadow-service: 0px 3px 20px 0px #8e9ca90d;
+  --shadow-deatail_shadow: 0px 20px 80px 0px #68758d26;
+  --shadow-dark-md: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,
+    rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+
+  --transition-duration-150: 150ms;
+
+  --spacing-25: 25rem;
+  --spacing-29: 28rem;
+  --spacing-45: 45rem;
+  --spacing-50: 50rem;
+  --spacing-94: 22.5rem;
+  --spacing-120: 120rem;
+  --spacing-6_25: 6.25rem;
+  --spacing-70\%: 70%;
+  --spacing-40\%: 40%;
+  --spacing-30\%: 30%;
+  --spacing-60\%: 60%;
+  --spacing-8_5: 8.5rem;
+  --spacing-3_75: 3.75rem;
+
+  --height-150: 750px;
+  --height-6_25: 6.25rem;
+
+  --leading-extra-loose: 2.5;
+  --leading-2_5: 2.5rem;
+
+  --inset-5\%: 5%;
+  --inset-35\%: 35%;
+
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-999: 999;
+
+  --color-primary: #2f73f2;
+  --color-secondary: #547593;
+  --color-midnight_text: #102d47;
+  --color-grey: #668199;
+  --color-border: #ccd7e1;
+  --color-success: #3cd278;
+  --color-section: #f8fafc;
+  --color-darkmode: #081738;
+  --color-darklight: #000f30;
+  --color-dark_border: #224767;
+  --color-Sky-blue-mist: #c0d5fb;
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+}
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+
+
+body {
+  @apply overflow-x-hidden;
+}
+
+@layer base {
+  section {
+    @apply py-16;
+  }
+}
+
+
