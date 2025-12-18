@@ -30,7 +30,7 @@ const Hero = () => {
     <section className='relative md:pt-44 pt-28 bg-white  dark:bg-darklight bg-cover text-white'>
       <div className='container mx-auto max-w-6xl px-4 grid grid-cols-12 gap-4 relative z-10'>
         <div
-          className='md:col-span-6 col-span-12 p-4 md:px-4 px-0 space-y-4 flex flex-col items-start justify-center'
+          className='md:col-span-6 col-span-12 order-2 lg:order-1 p-4 md:px-4 px-0 space-y-4 flex flex-col items-start justify-center'
           data-aos='fade-right'
           data-aos-delay='200'
           data-aos-duration='1000'>
@@ -109,7 +109,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="md:col-span-6 col-span-12 relative before:absolute before:content-[''] before:bg-[url('/images/hero/line-leyar.svg')] before:bg-no-repeat before:left-1/2 before:top-0 before:h-24 before:w-52 before:-z-10 before:translate-x-70% before:-translate-y-40% lg:before:inline-block before:hidden after:absolute after:content-[''] after:bg-[url('/images/hero/round-leyar.svg')] after:bg-no-repeat xl:after:inline-block after:hidden after:left-0 after:bottom-0 after:h-6.25 after:w-6.25 after:-z-10 after:-translate-x-1/2 after:translate-y-1/2">
+        <div className="md:col-span-6 col-span-12 order-1 lg:order-2 relative before:absolute before:content-[''] before:bg-[url('/images/hero/line-leyar.svg')] before:bg-no-repeat before:left-1/2 before:top-0 before:h-24 before:w-52 before:-z-10 before:translate-x-70% before:-translate-y-40% lg:before:inline-block before:hidden after:absolute after:content-[''] after:bg-[url('/images/hero/round-leyar.svg')] after:bg-no-repeat xl:after:inline-block after:hidden after:left-0 after:bottom-0 after:h-6.25 after:w-6.25 after:-z-10 after:-translate-x-1/2 after:translate-y-1/2">
           <Image
             src={getImgPath('/images/home.jpg')}
             alt='hero-image'
