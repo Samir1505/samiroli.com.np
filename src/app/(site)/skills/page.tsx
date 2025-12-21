@@ -1,7 +1,6 @@
 import React from "react";
 import HeroSub from "@/app/component/HeroSub";
 import { Metadata } from "next";
-import Progresswork from "@/app/component/WorkProgress";
 import SkillsSection from "./SkillsSection";
 export const metadata: Metadata = {
   title: "Skills | Samir",
@@ -19,7 +18,7 @@ const About = () => {
         description=""
         breadcrumbLinks={breadcrumbLinks}
       />
-      <SkillsSection />
+      <SkillsSection isColorMode={true}/>
     </>
   );
 };
