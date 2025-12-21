@@ -8,7 +8,7 @@ export const headerData: HeaderItem[] = [
   { label: "Skills", href: "/skills" },
   { label: "Project", href: "/project" },
   {
-    label: "other",
+    label: "Pages",
     href: "",
     submenu: [
       { label: "Gallery", href: "/gallery" },
