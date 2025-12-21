@@ -4,7 +4,6 @@ import Hero from './components/Home/Hero';
 import Counter from './components/Home/Counter';
 import Progresswork from './component/WorkProgress';
 import MyServicesPage from './(site)/services/Services';
-import MyCertificates from './(site)/certificates/Certificates';
 import SkillsSection from './(site)/skills/SkillsSection';
 import TeamsSection from './(site)/teams/TeamsSection';
 import ContactUs from './(site)/contact/Contact';
@@ -24,9 +23,9 @@ export default function Home() {
       <Counter isColorMode={false} />
       <Progresswork isColorMode={false} />
       <MyServicesPage/>
-      <SkillsSection/>
+      <SkillsSection isColorMode={false}/>
       <TeamsSection/>
-      <ContactUs/>
+      <ContactUs isColorMode={false}/>
 
     </main>
   )
