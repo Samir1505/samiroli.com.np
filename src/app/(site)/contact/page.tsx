@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSub from "@/app/component/HeroSub";
 import { Metadata } from "next";
-import Contact from "./Contact";
+import ContactUs from "./Contact";
 export const metadata: Metadata = {
   title: "Contact | Samir",
 };
@@ -18,7 +18,7 @@ const About = () => {
         description=""
         breadcrumbLinks={breadcrumbLinks}
       />
-      <Contact/>
+      <ContactUs isColorMode={true}/>
     </>
   );
 };
