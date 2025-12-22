@@ -27,10 +27,12 @@ const Hero = () => {
 
 
   return (
-    <section className='relative md:pt-44 pt-28 bg-white  dark:bg-darklight bg-cover text-white'>
+    <section className='relative md:pt-44 pt-28  bg-white  dark:bg-darklight bg-cover text-white'>
       <div className='container mx-auto max-w-6xl px-4 grid grid-cols-12 gap-4 relative z-10'>
         <div
-          className='md:col-span-6 col-span-12 order-2 lg:order-1 p-4 md:px-4 px-0 space-y-4 flex flex-col items-start justify-center'
+         className="md:col-span-6 col-span-12 order-2 px-0 lg:order-1 space-y-4 flex flex-col items-start justify-center 
+           p-4 lg:pl-0"
+
           // data-aos='fade-right'
           // data-aos-delay='200'
           // data-aos-duration='1000'

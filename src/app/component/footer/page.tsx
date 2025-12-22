@@ -10,23 +10,23 @@ const Footer: FC = () => {
         <div>
           <ul className='flex justify-center mb-4 items-center sm:gap-7 gap-3'>
             <li className='text-base text-white/50'>
-              <Link href='/#about' className='hover:text-primary'>
+              <Link href='/about' className='hover:text-primary'>
                 About
               </Link>
             </li>
             <li className='text-base text-white/50'>
-              <Link href='/#services' className='hover:text-primary'>
+              <Link href='/services' className='hover:text-primary'>
                 Services
               </Link>
             </li>
             <li className='text-base text-white/50'>
-              <Link href='/portfolio' className='hover:text-primary'>
-                Portfolio
+              <Link href='/project' className='hover:text-primary'>
+                Project
               </Link>
             </li>
             <li className='text-base text-white/50'>
-              <Link href='/blog' className='hover:text-primary'>
-                Blog
+              <Link href='/skills' className='hover:text-primary'>
+                Skills
               </Link>
             </li>
             <li className='text-base text-white/50'>

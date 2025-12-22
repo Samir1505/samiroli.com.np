@@ -3,7 +3,7 @@ import HeroSub from "@/app/component/HeroSub";
 import { Metadata } from "next";
 import Progresswork from "@/app/component/WorkProgress";
 export const metadata: Metadata = {
-  title: "About | Venus",
+  title: "About | samir",
 };
 
 const About = () => {

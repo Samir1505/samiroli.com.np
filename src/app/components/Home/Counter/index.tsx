@@ -61,7 +61,7 @@ const Counter = ({ isColorMode }: { isColorMode: Boolean }) => {
       ref={sectionRef}
       className={`${
         isColorMode ? "dark:bg-darklight bg-section" : "dark:bg-darkmode bg-white"
-      } py-16`}
+      }`}
     >
       <div className="container mx-auto max-w-6xl px-4">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
